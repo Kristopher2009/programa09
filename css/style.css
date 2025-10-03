@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(255, 255, 255);
+       color: rgb(0, 0, 0);
+       text-align: center;
+      font-style: normal;
+       text-align: left;
+   }
+   
+   nav{
+       color: rgb(95, 84, 84);
+       padding: 0px 4px;
+   }
+   
+   nav a{
+       margin:8px;
+   }
+   
+   a{
+       text-decoration: none;
+       color: rgb(0, 0, 0);}
+   
+   a:hover{
+       background-color: rgb(48, 43, 43);
+       transition: ease-in-out;
+       border-radius: 6px;
+   }
+
+   .fotovol img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .emschb img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .mapaintel {
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .byd {
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .video iframe {
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .bydfoto iframe{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
