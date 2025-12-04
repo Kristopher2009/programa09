@@ -49,13 +49,55 @@ body{
     border-radius: 16px;
    }
 
-   .video iframe {
+   .videofoto iframe{
     width: 360px;
     height: 360px;
     border-radius: 16px;
    }
 
    .bydfoto iframe{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .digital iframe{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .ard img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .es img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .micro img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .cmais img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+   
+   .multi img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .lig img{
     width: 360px;
     height: 360px;
     border-radius: 16px;

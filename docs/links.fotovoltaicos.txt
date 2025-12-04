@@ -4,3 +4,8 @@ https://www.distribuidorvision.com.br/produto/modulo-fotovoltaico-monocristalino
 https://backend.intelbras.com/sites/default/files/2025-02/datasheet-emsl-435m-hc-pt.pdf
 https://www.energiasolarphb.com.br/
 https://bydenergia.com/
+https://portal.vidadesilicio.com.br/ (entrada e saida diigtal)
+https://arduinoecia.com.br/ (arduino)
+https://eletronjun.com.br/ (microcontrolador)
+https://www.tinkercad.com/dashboard
+https://www.ibyte.com.br/ multimetro

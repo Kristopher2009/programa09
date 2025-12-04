@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Arduino</title>
+</head>
+<body>
+    <head>
+        <nav>
+            <a href="../index.html">Fotovoltaicos</a>
+            <a href="./system.html">SistemaFotovoltaico</a>
+            <a href="./regiaofotovol.html">Radiação Solar</a>
+            <a href="./bydintelbras.html">BYD e Intelbras</a>
+            <a href="./entdigital.html">Arduino</a>
+            <a href="./videosfotos.html">Tinkercard</a>
+            <a href="./suporte.html">Suporte</a>
+            <a href="./fotovol.html">Calculadora</a>
+
+        </nav>
+    </head>
+    <main><h1>O que é um Arduino?</h1>
+        <p>Arduino é uma plataforma de hardware e software de código aberto, projetada para facilitar a criação de projetos eletrônicos interativos. É uma placa de microcontrolador acessível e de baixo custo, que pode ler entradas de sensores e botões para controlar saídas como LEDs e motores, conectada a um computador para ser programada através do ambiente de desenvolvimento (IDE). </p>
+        <br>
+        <div class="ard">
+            <img src="../img/arduino2.jpg" alt="ard">
+            <small>ADAPTADO DE: <a href="https://arduinoecia.com.br/">ARDUINO e cia</a></small>
+        </div>
+        <h1>Entrada Digital</h1>
+        <p>Binário: 0 ou 1</p>
+        <p>Físico: nível lógico LOW ou HIGH</p>
+        <p>Volts: LOW = 0 a 1,5 V, 
+            HIGH = 3 V a 5 V (depende do modelo; no Arduino Uno, HIGH = 5 V)</p>
+        <hr>
+        <h1>Saída Digital</h1>
+        <p>Binário: 0 ou 1</p>
+        <p>Físico: nível lógico LOW ou HIGH</p>
+        <p>Volts: o	LOW = 0 V, o HIGH = 5 V (Arduino Uno)
+
+        </p>
+        <div class="es">
+            <img src="../img/entra e saída digital.jpg" alt="es">
+            <small>ADAPTADO DE: <a href="https://portal.vidadesilicio.com.br/">Vida de Silicio</a></small>
+        </div>  
+        <hr>
+        <h1>Entrada analógica</h1>
+        <p>Binário: valor convertido pelo ADC (0 a 1023 no Arduino Uno)</p>
+        <p>Físico: tensão contínua variável</p>
+        <p>Volts: 0 a 5 V (Arduino Uno)</p>
+        
+                <hr>
+                <h1>Saída analógica</h1>
+                <p>O Arduino Uno não tem saída analógica verdadeira; ele usa PWM</p>
+                <p>Binário: duty cycle (0–255 no PWM)</p>
+                <p>Físico: modulação por largura de pulso</p>
+                <p>Volts médios: variam entre 0 e 5 V dependendo do duty cycle</p>
+                <hr>
+                <br>
+                <h1>O que é um microcontrolador?</h1>
+                <p>É um “computador em um único chip”, contendo:</p>
+                <p>processador (CPU)</p>
+                <p>memória</p>
+                <p>portas de entrada e saída (I/O)</p>
+                <p>periféricos (ADC, timers, comunicação etc.)</p>
+                
+                
+                <h1>Microcontrolador do Arduino: modelo e fabricante
+                </h1>
+                <p>Modelo: ATmega328P</p>
+                <p>Fabricante: Microchip Technology (antiga ATMEL)
+                    <div class="micro">
+                        <img src="../img/microcontrolador.jpg" alt="micro">
+                        <small>ADAPTADO DE: <a href="https://eletronjun.com.br/">Eletrojun</a></small>
+                    </div>
+                    </p>
+                    <br>
+                    <hr>
+                    <h1>Linguagem de Programação</h1>
+                    <p>Uma variação simplificada de C/C++, usando a Arduino API.</p>
+                    <div class="cmais">
+                        <img src="../img/c++.jpg" alt="cmais">
+                        <small>ADAPTADO DE: <a href="https://www.tinkercad.com/dashboard">Tinkercard</a></small>
+                    </div>
+                    <br>
+                    <hr>
+                    <h1>Onde o Arduino é programado (IDE)</h1>
+                    <p>No Arduino IDE (desktop) ou Arduino Web Editor (online).</p>
+                    <hr>
+                    
+                    <h1>Valor em volts da entrada analógica no Arduino e resolução em bits</h1>
+                    <p>Tensão: 0 a 5 V (Arduino Uno)</p>
+                    <p>Resolução: 10 bits → valores de 0 a 1023</p>
+                    <br>
+                    <hr>
+                    <h1>Valor da entrada digital no Arduino</h1>
+                    <p>LOW: 0 a - 1,5 V</p>
+                    <p>HIGH: 3 V a 5 V</p>
+                    <br>
+                    <hr>
+                    <h1>Valor da saída digital no Arduino</h1>
+                    <p>LOW: 0 V</p>
+                    <p>HIGH: 5 V</p>
+                    <br>
+                    <hr>
+                    <h1>O que é um multímetro?</h1>
+                    <p>Instrumento usado para medir grandezas elétricas em um circuito.</p>
+                    <h2>Quais grandezas ele mede?</h2>
+                    <p>Tensão (V) — AC e DC</p>
+                    <p>Corrente (A) — AC e DC</p>
+                    <p>Resistência (Ω)</p>
+                    <p>Continuidade</p>
+                    <p>(Alguns modelos medem: capacitância, frequência, temperatura, etc.)</p>
+                    <div class="multi">
+                        <img src="../img/mulitmetro.jpg" alt="multi">
+                        <small>ADAPTADO DE: <a href="https://www.ibyte.com.br/ ">ibyte</a></small>
+                    </div>
+                    <br>
+                    <hr>
+                    <h1>O que é escala de medição?</h1>
+                    <p>É a faixa de valores que o multímetro pode medir com precisão.
+                        Exemplo: 20 V, 200 V, 2 kΩ etc.
+                        </p>
+                        <br>
+                        <hr>
+                        <h1>Qual lei o multímetro aplica?</h1>
+                        <p>Principalmente a Lei de Ohm: V=R⋅I</p>
+                        <p>Tensão (V): A força que impulsiona os elétrons através do circuito. A unidade é o Volt (V).</p>
+                        <p>Corrente (I): O fluxo de elétrons através do condutor. A unidade é o Ampere (A).</p>
+                        <p>Resistência (R): A oposição à passagem da corrente elétrica. A unidade é o Ohm (Ω). </p>
+                        <p>Além disso, utiliza princípios de divisão de tensão e corrente dependendo da função.</p>
+                        <br>
+                        <hr>
+                        <h1>O que é teste de continuidade e para que serve</h1>
+                        <p>É um teste que verifica se há um caminho elétrico completo entre dois pontos.
+                            Serve para identificar:
+                            </p>
+                            <p>fios rompidos</p>
+                            <p>
+                            trilhas abertas</p>
+                            <p>conexões defeituosas</p>
+                            <p>O multímetro apita quando há continuidade.</p>
+                            <br>
+                            <hr>
+                            <h1>Como medir resistência em um resistor?</h1>
+                            <p>1. Desconectar o resistor do circuito.</p>
+                            <p>2. Selecionar a escala de resistência (Ω).</p>
+                            <p>3. Encostar as pontas do multímetro nos dois terminais.</p>
+                            <p>4. Ler o valor exibido.</p>
+                            <br>
+                            <hr>
+                            <h1>Como medir tensão no circuito com resistor e LED?</h1>
+                            <p>Selecionar tensão DC (V⎓).</p>
+                            <p>Encostar as pontas em paralelo com o componente (um lado no +, outro no –).</p>
+                            <p>Ler a queda de tensão no LED ou resistor.</p>
+                            <br>
+                            <hr>
+                            <h1>Como medir corrente elétrica no circuito?</h1>
+                            <p>Mudar a ponta vermelha para a porta correta (mA ou A).</p>
+                            <p>Selecionar corrente DC (A⎓).</p>
+                            <p>Abrir o circuito.</p>
+                            <p>Conectar o multímetro em série com a carga.</p>
+                            <p>Ler o valor da corrente.</p>
+                
+    
+        <br>
+    </main>
+    <footer>
+        By Kristopher &copy; &trade;
+        <hr>
+    </footer>
+</body>
+</html>
