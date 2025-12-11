@@ -125,3 +125,28 @@ body{
     height: 360px;
     border-radius: 16px;
    }
+
+   .led img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .segmentos iframe{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+   
+
+   .fotoard img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
+
+   .placafoto img{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
+   }
